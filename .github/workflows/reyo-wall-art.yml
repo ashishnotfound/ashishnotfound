@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'reyo-wall-art/payload/**'
-      - 'reyo-wall-art/generate.py'
+      - 'reyo-wall-art/trigger.txt'
       - '.github/workflows/reyo-wall-art.yml'
 
 permissions:
